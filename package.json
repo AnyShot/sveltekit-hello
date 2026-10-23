@@ -1,0 +1,20 @@
+{
+	"name": "sveltekit-hello",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"description": "Minimal SvelteKit app (adapter-node) used to test deploys on Arcen Cloud.",
+	"engines": { "node": ">=24" },
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"start": "node build"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "6.0.0",
+		"@sveltejs/kit": "3.1.0",
+		"@sveltejs/vite-plugin-svelte": "7.3.1",
+		"svelte": "5.57.2",
+		"vite": "8.3.5"
+	}
+}
